@@ -1,0 +1,15 @@
+name: 'action-version-helper'
+description: 'Help to release version'
+inputs:
+  prefix:
+    description: 'branch prefix'
+    default: 'version'
+  token:
+    description: 'token'
+    default: ${{github.token}}
+  fetch-depth:
+    description: 'fatch depth'
+    default: 0
+runs:
+  using: node12
+  main: index.js

@@ -1,0 +1,27 @@
+{
+  "name": "action-version-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build -o dist src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xl-vision/action-version-helper.git"
+  },
+  "author": "Rhys Xia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xl-vision/action-version-helper/issues"
+  },
+  "homepage": "https://github.com/xl-vision/action-version-helper#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "@vercel/ncc": "^0.33.3",
+    "typescript": "^4.5.5"
+  }
+}
